@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Agarwal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+        <p class="loading-text">Initializing Portfolio...</p>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 class="logo-text">SA</h2>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-page="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-page="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-page="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-page="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-page="education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-page="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-page="resume">Resume</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Home Section -->
+        <section class="page home-page active" id="home">
+            <div class="animated-bg"></div>
+            <div class="floating-particles"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="typing-text">Sahil Agarwal</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="subtitle-text">B.Tech CSE Student | Second Year | Future Developer</span>
+                    </div>
+                    <div class="hero-traits">
+                        <span class="trait">Calm</span>
+                        <span class="trait-separator">•</span>
+                        <span class="trait">Diligent</span>
+                        <span class="trait-separator">•</span>
+                        <span class="trait">Adaptive</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate computer science student on a journey to master programming, 
+                        build innovative solutions, and contribute to the tech world with dedication and creativity.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary glow-btn" data-page="projects">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-secondary pulse-btn" data-page="contact">
+                            <span>Contact Me</span>
+                            <i class="fas fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="page about-page" id="about">
+            <div class="page-container">
+                <div class="page-header">
+                    <h2 class="page-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-left">
+                        <div class="profile-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="image-border"></div>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <div class="about-text">
+                            <h3 class="section-subtitle">My Journey</h3>
+                            <p class="about-description">
+                                I'm Sahil Agarwal, a dedicated B.Tech Computer Science Engineering student 
+                                currently in my second year at JECRC Foundation. Born on July 28, 2007, 
+                                I bring a unique blend of calmness, diligence, and adaptability to everything I do.
+                            </p>
+                            <p class="about-description">
+                                My career objective is to obtain a challenging position in a dynamic organization 
+                                where I can utilize my skills and knowledge to contribute effectively. 
+                                I'm always willing to relocate anywhere in India for the right opportunities.
+                            </p>
+                            <div class="personality-traits">
+                                <div class="trait-card">
+                                    <i class="fas fa-leaf"></i>
+                                    <h4>Calm</h4>
+                                    <p>Maintaining composure under pressure</p>
+                                </div>
+                                <div class="trait-card">
+                                    <i class="fas fa-clock"></i>
+                                    <h4>Diligent</h4>
+                                    <p>Persistent and hardworking approach</p>
+                                </div>
+                                <div class="trait-card">
+                                    <i class="fas fa-sync-alt"></i>
+                                    <h4>Adaptive</h4>
+                                    <p>Quick to learn and adjust</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="page skills-page" id="skills">
+            <div class="page-container">
+                <div class="page-header">
+                    <h2 class="page-title">Skills & Expertise</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-code"></i>
+                            Technical Skills
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="80">
+                                <div class="skill-name">Basic Excel</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="70">
+                                <div class="skill-name">Python</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="85">
+                                <div class="skill-name">C Programming</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-brain"></i>
+                            Behavioral Skills
+                        </h3>
+                        <div class="behavioral-skills">
+                            <div class="behavioral-item">
+                                <i class="fas fa-rocket"></i>
+                                <span>Self Motivated</span>
+                            </div>
+                            <div class="behavioral-item">
+                                <i class="fas fa-cog"></i>
+                                <span>Adaptive</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-users"></i>
+                            Soft Skills
+                        </h3>
+                        <div class="soft-skills">
+                            <div class="soft-skill-card">
+                                <i class="fas fa-tasks"></i>
+                                <h4>Planning & Organization</h4>
+                                <p>Great planning and organizational skills</p>
+                            </div>
+                            <div class="soft-skill-card">
+                                <i class="fas fa-handshake"></i>
+                                <h4>Interpersonal Skills</h4>
+                                <p>Excellent communication and teamwork abilities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="page projects-page" id="projects">
+            <div class="page-container">
+                <div class="page-header">
+                    <h2 class="page-title">Projects & Work</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="projects-content">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">C Programming Fundamentals</h3>
+                            <div class="project-type">Academic Project</div>
+                        </div>
+                        <div class="project-description">
+                            <p>Mastered basics of data types, loops, arrays, functions, recursion, structures, 
+                            file handling, and pointers through comprehensive coursework and assignments.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">C Programming</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">College Assignment Solutions</h3>
+                            <div class="project-type">Coursework</div>
+                        </div>
+                        <div class="project-description">
+                            <p>Wrote comprehensive C programs using loops, arrays, and functions to solve 
+                            complex problems from college assignments and practical exercises.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">C Programming</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-card coming-soon">
+                        <div class="project-header">
+                            <h3 class="project-title">More Projects Coming Soon</h3>
+                            <div class="project-type">Future Work</div>
+                        </div>
+                        <div class="project-description">
+                            <p>Currently working on exciting new projects in web development, 
+                            data structures, and software engineering. Stay tuned for updates!</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Web Development</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">DSA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="page education-page" id="education">
+            <div class="page-container">
+                <div class="page-header">
+                    <h2 class="page-title">Educational Journey</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">2024-2025</div>
+                            <h3 class="timeline-title">B.Tech Computer Science Engineering</h3>
+                            <p class="timeline-institution">JECRC Foundation</p>
+                            <p class="timeline-university">Rajasthan Technical University</p>
+                            <p class="timeline-grade">Semester 1 CGPA: 8.0</p>
+                            <p class="timeline-status">Currently in Second Year</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">2024</div>
+                            <h3 class="timeline-title">Higher Secondary (XII)</h3>
+                            <p class="timeline-institution">Sony Academy School</p>
+                            <p class="timeline-university">RBSE Board</p>
+                            <p class="timeline-grade">85%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">2022</div>
+                            <h3 class="timeline-title">Secondary (X)</h3>
+                            <p class="timeline-institution">Sony Academy School</p>
+                            <p class="timeline-university">RBSE Board</p>
+                            <p class="timeline-grade">84%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="page contact-page" id="contact">
+            <div class="page-container">
+                <div class="page-header">
+                    <h2 class="page-title">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-left">
+                        <div class="contact-info">
+                            <h3 class="contact-title">Contact Information</h3>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <strong>Primary:</strong> +91 8278677828<br>
+                                    <strong>Alternate:</strong> 7240657888
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>sahilagrawal980@gmail.com</div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>JECRC Foundation, Shri Ram ki Nangal,<br>
+                                via Sitapura RIICO, Tonk Road</div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-globe"></i>
+                                <div>Willing to relocate anywhere in India</div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <h3 class="contact-title">Connect With Me</h3>
+                            <div class="social-buttons">
+                                <a href="#" class="social-btn linkedin" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-btn github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-btn instagram" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-btn twitter" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form class="contact-form" id="contactForm">
+                            <h3 class="contact-title">Send Message</h3>
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full-width submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section class="page resume-page" id="resume">
+            <div class="page-container">
+                <div class="page-header">
+                    <h2 class="page-title">Resume</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="resume-content">
+                    <div class="resume-preview">
+                        <div class="resume-header">
+                            <h1>Sahil Agarwal</h1>
+                            <div class="resume-tagline">B.Tech CSE Student | Future Developer</div>
+                            <div class="resume-contact">
+                                <span>📞 +91 8278677828</span>
+                                <span>📧 sahilagrawal980@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-section">
+                            <h3>Career Objective</h3>
+                            <p>To obtain a challenging position in a dynamic organization where I can utilize my skills and knowledge to contribute effectively.</p>
+                        </div>
+
+                        <div class="resume-section">
+                            <h3>Education</h3>
+                            <div class="resume-item">
+                                <strong>B.Tech Computer Science Engineering (2024-2025)</strong><br>
+                                JECRC Foundation, Rajasthan Technical University<br>
+                                Semester 1 CGPA: 8.0
+                            </div>
+                            <div class="resume-item">
+                                <strong>Higher Secondary (2024)</strong><br>
+                                Sony Academy School, RBSE Board - 85%
+                            </div>
+                            <div class="resume-item">
+                                <strong>Secondary (2022)</strong><br>
+                                Sony Academy School, RBSE Board - 84%
+                            </div>
+                        </div>
+
+                        <div class="resume-section">
+                            <h3>Technical Skills</h3>
+                            <p>Basic Excel, Python, C Programming</p>
+                        </div>
+
+                        <div class="resume-section">
+                            <h3>Personal Information</h3>
+                            <div class="personal-info">
+                                <span><strong>Date of Birth:</strong> 28/07/2007</span>
+                                <span><strong>Gender:</strong> Male</span>
+                                <span><strong>Nationality:</strong> Indian</span>
+                                <span><strong>Mobility:</strong> Willing to relocate anywhere in India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-actions">
+                        <button class="btn btn-primary download-btn">
+                            <i class="fas fa-download"></i>
+                            <span>Download PDF</span>
+                        </button>
+                        <button class="btn btn-outline print-btn">
+                            <i class="fas fa-print"></i>
+                            <span>Print Resume</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Sahil Agarwal. All rights reserved.</p>
+            <p>Designed with ❤️ and built with passion</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
