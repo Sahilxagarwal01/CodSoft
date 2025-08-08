@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Agarwal - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-trail"></div>
+    <div class="particles-container" id="particles"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="gradient-text">SA</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">
+                    <span class="name-part" data-text="Sahil">Sahil</span>
+                    <span class="name-part" data-text="Agarwal">Agarwal</span>
+                </h1>
+                <div class="tagline-container">
+                    <span class="tagline" id="tagline"></span>
+                    <span class="cursor-blink">|</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <button class="btn-primary cta-btn" id="downloadBtn">
+                    <span>Download Resume</span>
+                    <i class="icon-download"></i>
+                </button>
+                <button class="btn-outline cta-btn" id="contactBtn">
+                    <span>Get in Touch</span>
+                    <i class="icon-arrow"></i>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">Passionate Engineering Student</div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="career-objective">"To obtain a challenging position in a dynamic organization where I can utilize my skills and knowledge to contribute effectively and grow professionally."</p>
+                    <div class="traits-grid">
+                        <div class="trait-card" data-trait="calm">
+                            <div class="trait-icon">🧘</div>
+                            <div class="trait-title">Calm</div>
+                            <div class="trait-desc">Maintaining composure under pressure</div>
+                        </div>
+                        <div class="trait-card" data-trait="diligence">
+                            <div class="trait-icon">💪</div>
+                            <div class="trait-title">Diligence</div>
+                            <div class="trait-desc">Persistent and hardworking approach</div>
+                        </div>
+                        <div class="trait-card" data-trait="adaptive">
+                            <div class="trait-icon">🔄</div>
+                            <div class="trait-title">Adaptive</div>
+                            <div class="trait-desc">Quick to learn and adjust</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-subtitle">Academic Journey</div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2024-2025">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024-2025</div>
+                        <div class="timeline-degree">B.Tech First Year</div>
+                        <div class="timeline-institution">JECRC Foundation</div>
+                        <div class="timeline-university">Rajasthan Technical University</div>
+                        <div class="timeline-result">Sem1 CGPA: 8.0</div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2024">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-degree">XII (Senior Secondary)</div>
+                        <div class="timeline-institution">Sony Academy School</div>
+                        <div class="timeline-university">RBSE Board</div>
+                        <div class="timeline-result">85%</div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2022">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <div class="timeline-degree">X (Secondary)</div>
+                        <div class="timeline-institution">Sony Academy School</div>
+                        <div class="timeline-university">RBSE Board</div>
+                        <div class="timeline-result">84%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-subtitle">Programming Journey</div>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">🖥️</div>
+                        <div class="experience-title">C Programming</div>
+                    </div>
+                    <div class="experience-desc">Wrote C programs using loops, arrays, and functions to solve problems from college assignments.</div>
+                    <div class="experience-skills">
+                        <span class="skill-tag">Loops</span>
+                        <span class="skill-tag">Arrays</span>
+                        <span class="skill-tag">Functions</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                    <div class="code-snippet">
+                        <div class="code-header">main.c</div>
+                        <div class="code-content">
+                            <span class="code-line">#include &lt;stdio.h&gt;</span>
+                            <span class="code-line">int main() {</span>
+                            <span class="code-line">    printf("Hello World!");</span>
+                            <span class="code-line">    return 0;</span>
+                            <span class="code-line">}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">🐍</div>
+                        <div class="experience-title">Python Programming</div>
+                    </div>
+                    <div class="experience-desc">Developed small Python programs to practice basic coding and logic building.</div>
+                    <div class="experience-skills">
+                        <span class="skill-tag">Python Basics</span>
+                        <span class="skill-tag">Logic Building</span>
+                        <span class="skill-tag">Programming Fundamentals</span>
+                    </div>
+                    <div class="code-snippet">
+                        <div class="code-header">script.py</div>
+                        <div class="code-content">
+                            <span class="code-line">def greet(name):</span>
+                            <span class="code-line">    return f"Hello {name}!"</span>
+                            <span class="code-line"></span>
+                            <span class="code-line">print(greet("World"))</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skill Set</h2>
+                <div class="section-subtitle">Technical & Personal Abilities</div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="75">
+                            <div class="skill-name">C Programming</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="65">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <div class="skill-name">Basic Programming Concepts</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Technical Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-name">Problem Solving</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="70">
+                            <div class="skill-name">Logic Development</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <div class="skill-name">Algorithm Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="95">
+                            <div class="skill-name">Calm</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="90">
+                            <div class="skill-name">Diligent</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-name">Adaptive</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <div class="skill-name">Team Work</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-subtitle">Let's Connect</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <div class="contact-label">Address</div>
+                            <div class="contact-value">JECRC Foundation, Shri Ram ki Nangal, via Sitapura RIICO, Tonk Road</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <div class="contact-label">Phone</div>
+                            <div class="contact-value">+91 8278677828</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="icon-send"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <span class="gradient-text">SA</span>
+            </div>
+            <div class="loading-text">Loading Landing Page...</div>
+
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
